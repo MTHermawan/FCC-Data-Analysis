@@ -85,9 +85,3 @@ def calculate(list):
     calculations['sum'] = [sumAxis1, sumAxis2, sumFlat]
 
     return calculations
-
-# Testing the function
-print(calculate([0,1,2,3,4,5,6,7,8]))
-
-# Invalid case
-print(calculate([0,1,2,3,4,5,6,7]))
