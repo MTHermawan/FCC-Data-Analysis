@@ -25,7 +25,6 @@ def draw_cat_plot():
 
     # 6
     df_cat = df_cat.groupby(['variable', 'value', 'cardio'], as_index=False).size().rename(columns={'size': 'total'})
-    print(df_cat)
     
 
     # 7
